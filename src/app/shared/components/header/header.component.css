@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  font-size: 25px;
+}

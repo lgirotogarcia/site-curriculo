@@ -1,0 +1,112 @@
+*{
+  margin-top: 0.5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.infos {
+  flex-wrap: wrap;
+  width: 25%;
+  height: 1080px;
+}
+
+.barra{
+  width: 80%;
+  border-right: 2px solid #000000;
+  padding-right: 20px;
+  height: 100%;
+}
+
+.barra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eu {
+  margin-top: 2%;
+  border-radius: 50%;
+  height: 10rem;
+}
+
+.basicos {
+  display: flex;
+  margin-top: 3%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.nome{
+ margin: 0px;
+}
+
+.ocupacao{
+
+}
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icone {
+  width: 40px;
+  margin: 2px;
+}
+
+.experiencias {
+  width: 80%;
+}
+
+.sobre-mim {
+  padding-top: 2%;
+  width: 60%;
+}
+
+.contatos ul li, .trabalho ul li {
+  list-style-type: none;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.titulo-xp {
+  margin-bottom: 15px;
+}
+
+.organizador {
+  flex-direction: row;
+  align-items: center;
+
+  /* align-content: space-between; */
+}
+
+.empresas, .descricao {
+  flex: 1;
+}
+
+.container-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.lista-descricao {
+  margin-bottom: 25px;
+}
