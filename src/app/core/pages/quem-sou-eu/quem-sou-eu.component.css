@@ -1,23 +1,29 @@
 *{
-  margin-top: 0.5%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* margin-top: 0.5%; */
   font-family: 'Ubuntu', sans-serif;
+  background-color: #F2F2F2;
 }
 
 .container {
   display: flex;
   width: 100%;
-  /* border: 1px solid black; */
+  align-content: center;
 }
 
 .infos {
+  display: flex;
   flex-wrap: wrap;
   width: 25%;
   height: 1080px;
+  align-items: center;
 }
 
 .barra{
   width: 80%;
-  border-right: 2px solid #000000;
+  border-right: 2px solid #787878;
   padding-right: 20px;
   height: 100%;
 }
@@ -85,14 +91,21 @@
 }
 
 .organizador {
+  display: flex;
   flex-direction: row;
   align-items: center;
-
+  box-sizing: content-box;
+  border: 2px black solid;
   /* align-content: space-between; */
 }
 
 .empresas, .descricao {
   flex: 1;
+  border: 2px red solid;
+}
+
+.empresas {
+  box-sizing: content-box;
 }
 
 .container-ul {

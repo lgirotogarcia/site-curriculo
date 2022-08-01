@@ -1,6 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #787878;
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: #F2F2F2;
 }
 
 a:hover {

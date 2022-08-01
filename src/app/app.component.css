@@ -1,4 +1,7 @@
 *{
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-family: 'Ubuntu', sans-serif;
   /* height: 100%; */
 }
@@ -14,3 +17,8 @@ router-outlet{
 footer {
   height: 2%;
 } */
+
+.header {
+  background-color: #787878;
+}
+
