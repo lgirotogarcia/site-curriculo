@@ -9,6 +9,7 @@ import { NavComponent } from './shared/components/nav/nav.component';
 import { QuemSouEuComponent } from './core/pages/quem-sou-eu/quem-sou-eu.component';
 import { ProjetosComponent } from './core/pages/projetos/projetos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ThemeChangerComponent } from './shared/components/theme-changer/theme-changer.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavComponent,
     QuemSouEuComponent,
     ProjetosComponent,
+    ThemeChangerComponent
   ],
   imports: [
     BrowserModule,

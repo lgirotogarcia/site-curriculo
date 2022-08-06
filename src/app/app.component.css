@@ -1,24 +1,5 @@
 *{
   margin: 0;
   padding: 0;
-  border: 0;
   font-family: 'Ubuntu', sans-serif;
-  /* height: 100%; */
 }
-
-/* app-header, app-nav {
-  height: 5%;
-}
-
-router-outlet{
-  height: 92%;
-}
-
-footer {
-  height: 2%;
-} */
-
-.header {
-  background-color: #787878;
-}
-

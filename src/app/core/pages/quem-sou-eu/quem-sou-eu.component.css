@@ -1,34 +1,33 @@
 *{
   margin: 0;
   padding: 0;
-  border: 0;
-  /* margin-top: 0.5%; */
   font-family: 'Ubuntu', sans-serif;
-  background-color: #F2F2F2;
 }
 
 .container {
   display: flex;
-  width: 100%;
-  align-content: center;
+  max-width: 3440px;
+  justify-content: center;
+  min-height: 93vh;
+  flex-direction: row;
+  background-color: #F2F2F2;
+  /* border: 2px black solid */
 }
+
 
 .infos {
   display: flex;
   flex-wrap: wrap;
-  width: 25%;
-  height: 1080px;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .barra{
-  width: 80%;
-  border-right: 2px solid #787878;
+  padding-left: 3rem;
+  border-right: 2px #787878 solid;
   padding-right: 20px;
   height: 100%;
-}
-
-.barra {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,10 +51,6 @@
  margin: 0px;
 }
 
-.ocupacao{
-
-}
-
 .contatos {
   display: flex;
   flex-direction: column;
@@ -68,12 +63,14 @@
 }
 
 .experiencias {
-  width: 80%;
+  width: 30%;
+  margin-top: 1rem;
+  padding-left: 2rem;
 }
 
 .sobre-mim {
   padding-top: 2%;
-  width: 60%;
+  width: 100%;
 }
 
 .contatos ul li, .trabalho ul li {
@@ -83,43 +80,32 @@
 .titulo {
   font-size: 1.8rem;
   font-weight: 500;
-  margin-bottom: 0px;
+  margin-bottom: 1rem;
 }
 
-.titulo-xp {
-  margin-bottom: 15px;
-}
-
-.organizador {
+.container-org {
   display: flex;
+  width: 100%;
+  align-content: center;
+}
+
+ .container-ul {
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  box-sizing: content-box;
-  border: 2px black solid;
-  /* align-content: space-between; */
-}
+  height: 100%;
+  width: 100%;
 
-.empresas, .descricao {
-  flex: 1;
-  border: 2px red solid;
-}
+ }
 
-.empresas {
-  box-sizing: content-box;
-}
-
-.container-ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.lista {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
+.lista-empresa {
+  width: 20%;
+  padding-right: 20px;
+  /* border: 2px red solid; */
 }
 
 .lista-descricao {
-  margin-bottom: 25px;
+  width: 80%;
+  /* border: 2px blue solid; */
+  margin-bottom: 0.8rem;
 }
