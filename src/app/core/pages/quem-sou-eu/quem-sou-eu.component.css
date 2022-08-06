@@ -19,14 +19,15 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 1rem;
   margin-bottom: 1rem;
+  padding-left: 3rem;
+  margin-top: 2%;
 }
 
 .barra{
   padding-left: 3rem;
   border-right: 2px #787878 solid;
-  padding-right: 20px;
+  padding-right: 3rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -34,7 +35,6 @@
 }
 
 .eu {
-  margin-top: 2%;
   border-radius: 50%;
   height: 10rem;
 }
@@ -63,13 +63,13 @@
 }
 
 .experiencias {
-  width: 30%;
-  margin-top: 1rem;
+  width: 40%;
   padding-left: 2rem;
+  margin-top: 2%;
+  margin-bottom: 1rem;
 }
 
 .sobre-mim {
-  padding-top: 2%;
   width: 100%;
 }
 
@@ -80,7 +80,7 @@
 .titulo {
   font-size: 1.8rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 1.3rem;
 }
 
 .container-org {
