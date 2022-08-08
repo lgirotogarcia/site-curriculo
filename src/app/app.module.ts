@@ -10,7 +10,7 @@ import { QuemSouEuComponent } from './core/pages/quem-sou-eu/quem-sou-eu.compone
 import { ProjetosComponent } from './core/pages/projetos/projetos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ThemeChangerComponent } from './shared/components/theme-changer/theme-changer.component';
-
+import { NavLateralComponent } from './shared/components/nav-lateral/nav-lateral.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +19,8 @@ import { ThemeChangerComponent } from './shared/components/theme-changer/theme-c
     NavComponent,
     QuemSouEuComponent,
     ProjetosComponent,
-    ThemeChangerComponent
+    ThemeChangerComponent,
+    NavLateralComponent
   ],
   imports: [
     BrowserModule,

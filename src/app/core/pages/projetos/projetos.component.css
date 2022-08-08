@@ -9,36 +9,6 @@
   flex-direction: row;
 }
 
-.navegacao {
-  width: 150px;
-  height: 100%;
-  background-color: rgb(36, 36, 36);
-}
-
-.projetos {
-  display: flex;
-  background-color: black;
-}
-
-.lista-projetos {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-
-.projeto {
-  list-style-type: none;
-  color: #ffffff;
-  margin: 10px;
-  text-align: center;
-  border: 0;
-}
-
-.proj-link:hover {
-  background-color: rgb(54, 54, 54);
-}
-
 .conteudo {
   background-color: #F2F2F2;
   width: 100%;
