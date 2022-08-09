@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  max-width: 3440px;
+  background-color: #F2F2F2;
+}
+
+.cattos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+  width: 100%;
+  margin: 0;
+}
+
+.titulo {
+  font-size: 3rem;
+
+}
+
+.button {
+  padding-top: 1rem;
+}
+
+.btn {
+  padding: 0.8rem;
+  background-color: #383838;
+  color: #F2F2F2;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #525252;
+}
+
+.cattos {
+  padding-top: 2rem;
+}
+
+.imagem {
+  max-width: 550px;
+  border-radius: 10px;
+}

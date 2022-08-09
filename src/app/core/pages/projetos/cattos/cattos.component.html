@@ -1,0 +1,14 @@
+<div class="container">
+<app-nav-lateral></app-nav-lateral>
+  <div class="cattos-container">
+    <div>
+      <h2 class="titulo">Gimme Cattos!</h2>
+    </div>
+    <div class="cattos" *ngFor="let cattos of cattosArr">
+      <img src= "{{cattos.url}}" alt="Imagem aleatória de gatinho" class="imagem">
+    </div>
+    <div class="button">
+      <button class="btn" (click)="getCattos()">Gimme more!</button>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './routes/app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { ProjetosComponent } from './core/pages/projetos/projetos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ThemeChangerComponent } from './shared/components/theme-changer/theme-changer.component';
 import { NavLateralComponent } from './shared/components/nav-lateral/nav-lateral.component';
+import { CattosComponent } from './core/pages/projetos/cattos/cattos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,12 +22,14 @@ import { NavLateralComponent } from './shared/components/nav-lateral/nav-lateral
     QuemSouEuComponent,
     ProjetosComponent,
     ThemeChangerComponent,
-    NavLateralComponent
+    NavLateralComponent,
+    CattosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
