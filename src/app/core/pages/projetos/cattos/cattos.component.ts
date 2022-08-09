@@ -1,5 +1,5 @@
 import { Component, AfterContentInit } from '@angular/core';
-import { CattosService } from 'src/app/services/cattos.service';
+import { CattosService } from 'src/app/services/cattos/cattos.service';
 import { Cattos } from 'src/app/models/cattos';
 
 @Component({
