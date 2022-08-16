@@ -1,3 +1,5 @@
+@use "../../../../style/light-theme";
+
 *{
   margin: 0;
   padding: 0;
@@ -10,7 +12,7 @@
   justify-content: center;
   min-height: 92.6vh;
   flex-direction: row;
-  background-color: #F2F2F2;
+  background-color: light-theme.$primary-light;
 }
 
 
@@ -25,7 +27,7 @@
 
 .barra{
   padding-left: 3rem;
-  border-right: 2px #787878 solid;
+  border-right: 2px light-theme.$detail-light solid;
   padding-right: 3rem;
   height: 100%;
   display: flex;
