@@ -2,7 +2,7 @@
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Cattos } from '../models/cattos';
+import { Cattos } from '../../models/cattos';
 
 @Injectable({
   providedIn: 'root'

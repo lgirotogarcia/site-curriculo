@@ -23,7 +23,7 @@ import { CattosComponent } from './core/pages/projetos/cattos/cattos.component';
     ProjetosComponent,
     ThemeChangerComponent,
     NavLateralComponent,
-    CattosComponent
+    CattosComponent,
   ],
   imports: [
     BrowserModule,

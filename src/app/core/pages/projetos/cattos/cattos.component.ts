@@ -5,7 +5,7 @@ import { Cattos } from 'src/app/models/cattos';
 @Component({
   selector: 'app-cattos',
   templateUrl: './cattos.component.html',
-  styleUrls: ['./cattos.component.css']
+  styleUrls: ['./cattos.component.scss']
 })
 export class CattosComponent implements AfterContentInit {
 
