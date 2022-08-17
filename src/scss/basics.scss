@@ -1,0 +1,26 @@
+
+
+@mixin title {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+@mixin subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@mixin observation {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+@mixin text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@mixin list {
+  font-size: 1.25rem;
+  font-weight: 500;
+}

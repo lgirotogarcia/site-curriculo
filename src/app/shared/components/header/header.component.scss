@@ -1,3 +1,5 @@
+@use "../../../../scss/light-theme.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -8,28 +10,15 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  background-color: #787878;
+  background-color: light-theme.$detail-light;
 }
 
-
-
-a:hover {
-  color: black;
-}
-
-h1 {
-  font-size: 25px;
-  font-weight: 500;
-}
 .topo {
   margin: 0.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-.organizador {
-  margin-left: 10rem;
 }
 
 .logo {

@@ -1,8 +1,10 @@
+@use "../../../../../scss/light-theme";
+
 * {
   margin: 0;
   padding: 0;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  @include light-theme.text;
 }
 
 .container {
@@ -10,7 +12,7 @@
   width: 100%;
   margin: 0;
   max-width: 3440px;
-  background-color: #F2F2F2;
+  background-color: light-theme.$primary-light;
 }
 
 .cattos-container {
@@ -33,15 +35,15 @@
 
 .btn {
   padding: 0.8rem;
-  background-color: #383838;
-  color: #F2F2F2;
+  background-color: light-theme.$secondary-light;
+  color: light-theme.$primary-light;
   border-radius: 8px;
   font-size: 1.4rem;
   transition: 0.5s;
 }
 
 .btn:hover {
-  background-color: #525252;
+  background-color: light-theme.$btn-hover-light;
 }
 
 .cattos {

@@ -1,4 +1,5 @@
-@use "../../../../style/light-theme";
+@use "../../../../scss/light-theme";
+@use "../../../../scss/basics";
 
 *{
   margin: 0;
@@ -41,6 +42,7 @@
 }
 
 .basicos {
+  @include basics.observation;
   display: flex;
   margin-top: 3%;
   flex-direction: column;
@@ -79,8 +81,7 @@
 }
 
 .titulo {
-  font-size: 1.8rem;
-  font-weight: 500;
+  @include basics.title;
   margin-bottom: 1.3rem;
 }
 
@@ -108,20 +109,18 @@
 }
 
 .lista-empresa {
+  @include basics.subtitle;
   width: fit-content;
   padding-right: 20px;
-  font-weight: 400;
-  font-size: 1.2rem;
-
 }
 
 .lista-data {
-  font-size: 0.9rem;
+  @include basics.observation;
 }
 
 .lista-descricao {
+  @include basics.text;
   width: 60%;
   text-align: justify;
   margin-bottom: 0.8rem;
-  font-size: 1rem;
 }

@@ -1,3 +1,4 @@
+@use "../../../../scss/light-theme";
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +8,9 @@
 .footer {
   display: flex;
   flex-direction: row;
-  background-color: #d9d9d9;
+  background-color: light-theme.$hover-light;
   justify-content: center;
-  border-top: 2px #787878 solid;
+  border-top: 2px light-theme.$detail-light solid;
   height: 25px;
+  color: light-theme.$secondary-light
 }

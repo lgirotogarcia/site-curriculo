@@ -1,3 +1,5 @@
+@use "../../../../scss/light-theme";
+
 *{
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
@@ -11,7 +13,7 @@
 }
 
 .conteudo {
-  background-color: #F2F2F2;
+  background-color: light-theme.$primary-light;
   width: 100%;
 }
 
