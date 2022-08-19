@@ -1,6 +1,7 @@
 import { Component, AfterContentInit } from '@angular/core';
+
 import { CattosService } from 'src/app/services/cattos/cattos.service';
-import { Cattos } from 'src/app/models/cattos';
+import { Cattos } from 'src/app/interface/cattos';
 
 @Component({
   selector: 'app-cattos',
@@ -19,8 +20,8 @@ export class CattosComponent implements AfterContentInit {
 
   getCattos(): void{
     //TODO verificar como faz a tratativa de erros sem ser com a versão deprecated de subscribe.
-    let olar = this.CattosService.getCattos().subscribe(resp => this.cattosArr = resp);
-    console.log(olar)
+    this.CattosService.getCattos().subscribe(resp => {this.cattosArr = resp;
+    console.log(this.cattosArr)})
   }
 
   //TODO fazer armazenamento de imagem para poder acessar uma imagem antiga.

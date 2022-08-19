@@ -1,4 +1,5 @@
 @use "../../../../../scss/light-theme";
+@use "../../../../../scss/basics";
 
 * {
   margin: 0;
@@ -8,25 +9,16 @@
 }
 
 .container {
-  display: flex;
-  width: 100%;
-  margin: 0;
-  max-width: 3440px;
+  @include basics.container-page;
   background-color: light-theme.$primary-light;
 }
 
 .cattos-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 1.5rem;
-  width: 100%;
-  margin: 0;
+  @include basics.project-container;
 }
 
 .titulo {
-  font-size: 3rem;
-
+  @include basics.project-title;
 }
 
 .button {

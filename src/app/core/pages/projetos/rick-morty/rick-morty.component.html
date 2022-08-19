@@ -1,0 +1,22 @@
+<div class="container">
+  <app-nav-lateral></app-nav-lateral>
+  <div class="project-container">
+    <div>
+      <h2 class="titulo">
+        Rick and Morty API
+      </h2>
+    </div>
+    <div class="card-container" >
+      <mat-card class="card" *ngFor="let char of charArr">
+        <mat-card-title class="card-title">{{char.name}}</mat-card-title>
+        <img mat-card-image src="{{char.image}}" class="img">
+        <mat-card-content class="card-information">Gender: {{char.gender}}</mat-card-content>
+        <mat-card-content class="card-information">Status: {{char.status}}</mat-card-content>
+        <mat-card-content class="card-information">Specie: {{char.species}}</mat-card-content>
+        <mat-card-content class="card-information" *ngIf="char.type">Type/Subspiece: {{char.type}}</mat-card-content>
+        <mat-card-content class="card-information" *ngIf="!char.type">Type/Subspiece: None</mat-card-content>
+        <mat-card-content class="card-information">Last location: {{char.location.name}}</mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

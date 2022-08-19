@@ -1,15 +1,15 @@
-
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+
 import { Observable } from 'rxjs';
-import { Cattos } from '../../models/cattos';
+import { Cattos } from '../../interface/cattos';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CattosService {
 
-  apiUrl = 'https://api.thecatapi.com/v1/images/search';
+  apiUrl: string = 'https://api.thecatapi.com/v1/images/search';
 
   httpOptions = {
     headers: new HttpHeaders({

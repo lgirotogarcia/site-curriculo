@@ -1,0 +1,60 @@
+@use "../../../../../scss/light-theme";
+@use "../../../../../scss/basics";
+
+
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.container {
+  @include basics.container-page;
+  background-color: light-theme.$primary-light;
+  // background-color: light-theme.$primary-light;
+}
+
+.project-container {
+  @include basics.project-container;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.titulo {
+  @include basics.project-title;
+}
+
+.card-container {
+  padding-top: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  margin: 0.6rem;
+  max-width: 18.75rem;
+  height: 39rem;
+}
+
+.card-title {
+  @include basics.title;
+  display: flex;
+  text-align: center;
+  line-height: 1.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 5rem;
+}
+
+.card-information {
+  @include basics.text;
+  text-align: center;
+}
+
+.img {
+  max-width: 18.75rem;
+}
