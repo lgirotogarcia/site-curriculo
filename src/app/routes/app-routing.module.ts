@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CattosComponent } from '../core/pages/projetos/cattos/cattos.component';
-import { ProjetosComponent } from '../core/pages/projetos/projetos.component';
-import { RickMortyComponent } from '../core/pages/projetos/rick-morty/rick-morty.component';
-import { QuemSouEuComponent } from '../core/pages/quem-sou-eu/quem-sou-eu.component';
+import { CattosComponent } from '@pages/projetos/cattos/cattos.component';
+import { ProjetosComponent } from '@pages/projetos/projetos.component';
+import { RickMortyComponent } from '@pages/projetos/rick-morty/rick-morty.component';
+import { QuemSouEuComponent } from '@pages/quem-sou-eu/quem-sou-eu.component';
 
 const routes: Routes = [
   {path:'', component: QuemSouEuComponent},

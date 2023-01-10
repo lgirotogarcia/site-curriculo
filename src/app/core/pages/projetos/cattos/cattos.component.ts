@@ -1,7 +1,7 @@
 import { Component, AfterContentInit } from '@angular/core';
 
-import { CattosService } from 'src/app/services/cattos/cattos.service';
-import { Cattos } from 'src/app/interface/cattos';
+import { CattosService } from '@services/cattos/cattos.service';
+import { Cattos } from '@app/interface/cattos';
 
 @Component({
   selector: 'app-cattos',

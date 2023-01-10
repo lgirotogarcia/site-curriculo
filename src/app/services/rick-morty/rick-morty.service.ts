@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 import { Observable } from 'rxjs';
-import { RickMorty } from 'src/app/interface/rick-morty';
+import { RickMorty } from '@interface/rick-morty';
 
 @Injectable({
   providedIn: 'root'

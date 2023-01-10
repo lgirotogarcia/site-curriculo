@@ -1,8 +1,8 @@
 import { Component, AfterContentInit } from '@angular/core';
 
-import { RickMortyService } from 'src/app/services/rick-morty/rick-morty.service';
-import { RickMorty } from 'src/app/interface/rick-morty';
-import { take } from "rxjs/operators"
+import { RickMortyService } from '@services/rick-morty/rick-morty.service';
+import { RickMorty } from '@interface/rick-morty';
+//import { take } from "rxjs/operators"
 
 type RequestInfo = {
   next: string;
